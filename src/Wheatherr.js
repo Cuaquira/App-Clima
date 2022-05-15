@@ -40,7 +40,7 @@ const Wheatherr = () => {
 
         <div className='Info_one'>
          <div className='informationgrafic'>
-         <img className='windows' src={`http://openweathermap.org/img/wn/${Weather.weather?.[0].icon}@2x.png`}/>
+         <img className='windows' src={`http://openweathermap.org/img/wn/${Weather.weather?.[0].icon}@2x.png`} alt=""/>
          <p>{isConvert ? `${(convertToCelsius(Weather.main?.temp)).toFixed(2)} Celsius` : `${(convertToFahrenheit()).toFixed(2)} Fahrenheit`}</p>
          </div>
 
