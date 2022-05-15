@@ -1,0 +1,55 @@
+
+
+.App {
+  margin: rem;
+  padding: 1rem;
+  text-align: center;
+  padding-bottom: 429px;
+  color: white;
+  background-image: url(https://www.xtrafondos.com/wallpapers/resized/montanas-en-el-desierto-8807.jpg?s=large);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.card{
+  display: inline-block;
+  background-color: rgb(5, 82, 82);
+  width: 40%;
+  height: 500px;
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px ;
+  position: relative;
+  top: 12rem;
+}
+
+
+.titlecountry{
+  display: inline;
+  color:white;
+}
+
+.Info_one{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.Information{
+  padding-left: 3rem;
+  text-align: left;
+  padding-top: 2rem;
+}
+
+.windows{
+  width: 250px;
+  height: 200px;
+}
+
+.convertFC{
+  padding-top: 5rem;
+ 
+}
+.Temperaturemaxmin{
+  display: flex;
+  justify-content: space-evenly;
+}
