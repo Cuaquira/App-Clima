@@ -34,7 +34,7 @@ const Wheatherr = () => {
     return (
         <div className="card">
           <div className='title'>
-         <h1>Weather App</h1>
+         <h1>Weather App--</h1>
          <p className='titlecountry'>{Weather.name},  {Weather.sys?.country}</p>
          </div>
 
